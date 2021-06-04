@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(90deg, #ffa500 0%, #e59400 25%, #588ef2 90%);
+}
+
+
+p {
+    font-family: 'VT323', monospace;
+    font-size: 29px;
+}
+
+.shenron {
+    width: 200%;
+    height: auto;
+}
+
+
+h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 29px;
+    text-shadow: 2px 2px white;
+}
+
+button {
+    font-family: 'VT323', monospace;
+    font-size: 29px;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+button {
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 472px;
+    }
+}
+
+
+.Question {
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img.default {
+    display: block;
+}
+
+img {
+    display: none;
+}
+
+.container2 {
+    display: none;
+}
+
+.actions2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.Wish {
+    display: none;
+}
+
+.container3 {
+    display: none;
+}
+
+.actions3 {
+    display: flex;
+    justify-content: space-around;
+}
